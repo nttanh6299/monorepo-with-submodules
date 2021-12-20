@@ -1,12 +1,18 @@
-const express = require("express")
-const cors = require("cors")
+import express from 'express'
+import cors from 'cors'
+import snakeCase from 'lodash/snakeCase'
+import { QueryPayload } from 'simple-shared-data'
+
 const app = express()
 const port = 3001
 
 app.use(cors())
 
-app.get("/data", (req, res) => {
-  res.json({ foo: "bar" })
+app.get('/', (_, res) => {
+  const responseData: QueryPayload = {
+    payload: snakeCase("Server data returned successfully"),
+  }
+  res.json(responseData)
 })
 
 app.listen(port, () => {

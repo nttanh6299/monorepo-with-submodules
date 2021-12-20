@@ -1,0 +1,21 @@
+{
+  "name": "simple-shared-data",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Tuan Anh Nguyen <nttanh6299@gmail.com> (https://github.com/nttanh6299)",
+  "homepage": "https://github.com/nttanh6299/monorepo-with-submodules#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nttanh6299/monorepo-with-submodules.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/nttanh6299/monorepo-with-submodules/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
