@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-with-git-submodules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tuan Anh Nguyen <nttanh6299@gmail.com> (https://github.com/nttanh6299)",
+  "license": "MIT",
+  "workspaces": ["packages/*"],
+  "private": true,
+  "scripts": {
+    "start": "lerna run --parallel start"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "4.5.4"
+  }
+}
