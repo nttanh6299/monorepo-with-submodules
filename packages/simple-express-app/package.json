@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-with-git-submodules",
+  "name": "@ta/simple-express-app",
   "version": "1.0.0",
   "main": "dist/server.js",
   "author": "Tuan Anh Nguyen <nttanh6299@gmail.com> (https://github.com/nttanh6299)",

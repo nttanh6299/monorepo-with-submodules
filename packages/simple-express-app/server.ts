@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import snakeCase from 'lodash/snakeCase'
-import { QueryPayload } from 'simple-shared-data'
+import { QueryPayload } from '@ta/simple-shared-data'
 
 const app = express()
 const port = 3001

@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-app",
+  "name": "@ta/simple-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

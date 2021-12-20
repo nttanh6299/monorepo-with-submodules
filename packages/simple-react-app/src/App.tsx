@@ -2,7 +2,8 @@ import logo from './logo.svg'
 import './App.css'
 
 import toUpper from 'lodash/toUpper'
-import { QueryPayload } from 'simple-shared-data'
+import { QueryPayload } from '@ta/simple-shared-data'
+import DarkMode from './react-dark-mode/src/DarkMode'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         >
           GET SOME DATA
         </button>
+        <DarkMode />
       </header>
     </div>
   )
